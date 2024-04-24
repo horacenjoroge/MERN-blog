@@ -1,7 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  currentUser: null,
+  currentUser: {
+    profilePicture: null, // Added profilePicture field with default value null
+  },
   error: null,
   loading: false,
 };
