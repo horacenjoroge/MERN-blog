@@ -24,6 +24,7 @@ export default function Dashboard() {
         {/* Sidebar */}
         <DashSidebar />
       </div>
+     
       {/* profile... */}
       {tab === 'profile' && <DashProfile />}
       {/* posts... */}
